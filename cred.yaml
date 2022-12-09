@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    kishan:
+      email: mishrakishan2017@gmail.com
+      name: Kishan Mishra
+      password: '$2b$12$dPfrX5gAQKPHS5sfWsf8PeSU.d/gz781wijxM6AnI0tjOqR.lIrVG'
+    krishna:
+      email: krishnarao494@gmail.com
+      name: Krishna Rao
+      password: '$2b$12$LPIulJaEw9/6YjLRXUOdwezZbvzFkPeyJgmJTZ0b5.B96bDuK4nVa'
+cookie:
+  expiry_days: 100
+  key: quantalgo
+  name: quantalgo
+preauthorized:
+  emails:
+  - mishrakishan2017@gmail.com
