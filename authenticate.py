@@ -77,7 +77,7 @@ def getkite(_client):
         options.add_argument('--no-sandbox')
         options.add_argument('--headless')
         options.add_argument('--disble-dev-shm-usage')
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+        driver = webdriver.Chrome(ChromeDriverManager().install(),chrome_options=chrome_options)
         driver.get(url)
         time.sleep(2)
         input_fields = driver.find_elements_by_tag_name('input')
